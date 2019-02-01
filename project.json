@@ -1,0 +1,20 @@
+{
+    "showFPS": false,
+    "noCache": true,
+    "modules": [
+        "cocos2d",
+        "ccui",
+        "compression",
+        "gui",
+        "editbox"
+    ],
+    "frameRate": 60,
+    "jsList": [
+
+    ],
+    "debugMode": 1,
+    "engineDir": "cocos2d-html5",
+    "renderMode": 0,
+    "project_libs/type": "javascript",
+    "id": "gameCanvas"
+}
