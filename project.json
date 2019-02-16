@@ -4,8 +4,6 @@
     "modules": [
         "cocos2d",
         "ccui",
-        "compression",
-        "gui",
         "editbox"
     ],
     "frameRate": 60,

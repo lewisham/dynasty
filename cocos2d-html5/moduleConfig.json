@@ -259,7 +259,7 @@
         "cocos2d" : [
             "core", "kazmath", "shaders",
             "clipping-nodes", "actions",
-            "progress-timer", "labels", "audio","gui", "cocostudio", "spine"
+            "progress-timer", "labels", "audio", "cocostudio"
         ],
 
         "ccbreader" : [
@@ -327,14 +327,7 @@
             "extensions/ccui/uiwidgets/scroll-widget/UIScrollViewCanvasRenderCmd.js",
             "extensions/ccui/uiwidgets/scroll-widget/UIScrollViewWebGLRenderCmd.js"
         ],
-        "cocostudio" : [
-            "core", "particle", "shape-nodes", "ccui",
-
-            "extensions/cocostudio/components/CCComponent.js",
-            "extensions/cocostudio/components/CCComponentContainer.js",
-            "extensions/ccui/layouts/UILayoutComponent.js",
-            "extensions/cocostudio/CocoStudio.js",
-
+        "armature" : [
             "extensions/cocostudio/armature/utils/CCArmatureDefine.js",
             "extensions/cocostudio/armature/utils/CCDataReaderHelper.js",
             "extensions/cocostudio/armature/utils/CCSpriteFrameCacheHelper.js",
@@ -355,7 +348,15 @@
             "extensions/cocostudio/armature/CCArmature.js",
             "extensions/cocostudio/armature/CCArmatureCanvasRenderCmd.js",
             "extensions/cocostudio/armature/CCArmatureWebGLRenderCmd.js",
-            "extensions/cocostudio/armature/CCBone.js",
+            "extensions/cocostudio/armature/CCBone.js"
+        ],
+        "cocostudio" : [
+            "core", "particle", "shape-nodes", "ccui",
+
+            "extensions/cocostudio/components/CCComponent.js",
+            "extensions/cocostudio/components/CCComponentContainer.js",
+            "extensions/ccui/layouts/UILayoutComponent.js",
+            "extensions/cocostudio/CocoStudio.js",
 
             "extensions/cocostudio/action/CCActionFrame.js",
             "extensions/cocostudio/action/CCActionManager.js",
